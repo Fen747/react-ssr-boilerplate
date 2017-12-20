@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+	margin: 0;
+  font-family: GillSansMT-Light, "Roboto", sans-serif !important;
+  background-color: white;
+}
+
+main {
+  min-height: calc(100vh - 50px - 300px);
+}
+
+.justify {
+  text-align: justify;
+}
+
+a {
+  text-decoration:none;
+  color: #039be5
+}
+
+.white {
+  color: white !important;
+}
+
+.x-large {
+  font-size: x-large;
+}
+
+.transform-change {
+  will-change: opacity;
+}
+
+.opacity-change {
+  will-change: transform;
+}
+
+.fit-screen-width {
+	width: 100vw;
+}
+
+.mainContainer {
+	padding: 0 0.5rem;
+}
+
+.flex-padding {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	height: 95%;
+  margin: 2% 3% 3% 3%;
+}
+
+.aligner-flex {
+  display: flex;
+  align-items: center;
+  text-align:center;
+  justify-content: center;
+  line-height: 1.5;
+}
+
+.aligner-item {
+  max-width: 50%;
+}
+
+.aligner-item-top {
+  align-self: flex-start;
+}
+
+.aligner-item-bottom {
+  align-self: flex-end;
+}
+
+.flex {
+  display: flex;
+}
+
+.flexbox-container {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+
+  align-items: center;
+}
+
+.full-screen {
+  width: 100vw;
+  height: 100vh;
+}
+
+.center {
+  text-align: center;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.container {
+  padding: 0 7.5%;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0;
+  }  
+}
+
+.section {
+  padding-top: 1rem;
+  padding-bottom: 1rem; 
+}
+
+.fill-screen {
+  min-height: 100vh;
+}
+
+.fill-parent {
+  min-height: 100%;
+}
+
+.bold {
+  font-weight: bold !important;
+}
+
+.relative {
+  position: relative;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.half-height {
+  height: 50%;
+}
+
+.no-margin {
+  margin: 0 !important;
+}
+
+.half-transparent {
+  opacity: 0.5;
+}
+
+body::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+ 
+body::-webkit-scrollbar-track {
+    border-radius: 0;
+    background: transparent;
+}
+ 
+body::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background: grey;
+}
